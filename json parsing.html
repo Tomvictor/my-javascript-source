@@ -7,12 +7,14 @@
 <h1>json object parsing using javascript and XMLHttp</h1>
 <p id="demo">
 	I am a text block
+	<button onclick="myFunction()">click me</button>
 </p>
 <script type="text/javascript">
-
+function myFunction() {
+	// body...
 	var xmlhttp = new XMLHttpRequest();
-	var url = "http://www.w3schools.com/json/myTutorials.js";
-	xmlhttp.onreadystatechange = function() {
+	var url = "http://restframework.herokuapp.com/snippets/?format=";
+	xmlhttp.onreadystatechange = function () {
 		// body...
 		if (this.readyState == 4 && this.status == 200) {
 			var myArr = this.responseText;
@@ -21,6 +23,9 @@
 	};
 	xmlhttp.open("GET",url,true);
 	xmlhttp.send();
+
+}
+
 </script>
 </body>
 </html>
