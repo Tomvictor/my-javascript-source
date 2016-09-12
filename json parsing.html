@@ -31,7 +31,8 @@ function myFunction() {
 	xmlhttp.send();
 	function parserFunction(array) {
 		var out = "";
-		document.getElementById("json").innerHTML ="<h2>json ID</h2>" + array["results"].url[0];
+		var newArry = array["results"]
+		document.getElementById("json").innerHTML ="<h2>json ID</h2>" + newArry[0].title;
 		/*
 		var i;
 		
