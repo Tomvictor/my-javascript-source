@@ -6,11 +6,16 @@
 <body>
 <h1>Javascript example</h1>
 <h3 id="demo">this is a text element to check the javascrip</h3>
-<button onclick="myFunction()">click me</button>
+<button onclick="myFunction()">click me 1</button>
+<button onclick="myFunction2()">click me 2</button>
 <script type="text/javascript">
 	function myFunction() {
 		// body...
 		document.getElementById('demo').innerHTML = "hai I am the changed text block ";
+	}
+	function myFunction2() {
+		// body...
+		document.getElementById('demo').style.fontSize='35px';
 	}
 </script>
 
