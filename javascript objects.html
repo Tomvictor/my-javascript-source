@@ -12,8 +12,17 @@
 <script type="text/javascript">
 function myCar() {
 	// body...
-	var car = {type:"fiat", model:"punto", color:"red"};
-	document.getElementById("demo").innerHTML = car.type;
+	var car = {
+		type:"fiat", 
+		model:"punto", 
+		color:"red",
+		fullDetails: function() {
+			// body...
+			var temp = this.type + " - " + this.model + "and colour is " + this.color;
+			return temp;
+		}
+	};
+	document.getElementById("demo").innerHTML = car.fullDetails();
 
 }
 
