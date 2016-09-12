@@ -12,6 +12,9 @@
 <p id="json">
 	Hai I am a text block
 </p>
+<h4 id="parsed">parsed output</h4>
+
+
 <script type="text/javascript">
 function myFunction() {
 	// body...
@@ -33,15 +36,13 @@ function myFunction() {
 		var out = "";
 		var newArry = array["results"]
 		document.getElementById("json").innerHTML ="<h2>json ID</h2>" + newArry[0].title;
-		/*
+		var out = "";
 		var i;
 		
-		for (var i = 0; i<=array.length; i++) {
-			Things[i]
-			out += array[3].url;
+		for (i = 0; i < newArry.length; i++) {
+			out += newArry[1].url + "<br>";
 		}
-		*/
-		
+		document.getElementById("parsed").innerHTML = out;	
 	}
 
 }
