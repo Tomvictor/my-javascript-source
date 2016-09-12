@@ -40,7 +40,7 @@ function myFunction() {
 		var i;
 		
 		for (i = 0; i < newArry.length; i++) {
-			out += newArry[1].url + "<br>";
+			out += '<a href="' + newArry[i].url + '">"'+ newArry[i].language + "<br>";
 		}
 		document.getElementById("parsed").innerHTML = out;	
 	}
