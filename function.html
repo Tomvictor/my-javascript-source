@@ -8,13 +8,18 @@
 <h1>javascript function demonstration !</h1>
 <p id="demo">
 	10 x 10 = ?
+	<button onclick="mulFunction(10,10)">click me</button>
 </p>
-<button onclick="myFunction(10,10)">click me</button>
 <script type="text/javascript">
-function myFunction(a,b) {
+function mul(x,y) {
 	// body...
-	var z = a*b;
-	document.getElementById('demo').innerHTML = "10 x 10 = " + z;
+	var z = x * y ;
+	return z;
+	//document.getElementById('demo').innerHTML = "10 x 10 = " + z;
+};
+function mulFunction(a,b) {
+	// body...
+	document.getElementById("demo").innerHTML ="10 x 10 = " + mul(a,b);
 }
 
 </script>
