@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>json parsing using javascript</title>
+</head>
+<body>
+<h1>json object parsing using javascript and XMLHttp</h1>
+<p id="demo">
+	I am a text block
+</p>
+<script type="text/javascript">
+
+	var xmlhttp = new XMLHttpRequest();
+	var url = "http://www.w3schools.com/json/myTutorials.js";
+	xmlhttp.onreadystatechange = function() {
+		// body...
+		if (this.readyState == 4 && this.status == 200) {
+			var myArr = this.responseText;
+			document.getElementById("demo").innerHTML = myArr;
+		}
+	};
+	xmlhttp.open("GET",url,true);
+	xmlhttp.send();
+</script>
+</body>
+</html>
