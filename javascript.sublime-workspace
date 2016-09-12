@@ -1,0 +1,264 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"new",
+				"newArry"
+			],
+			[
+				"pa",
+				"parserFunction"
+			],
+			[
+				"re",
+				"responseText"
+			],
+			[
+				"mu",
+				"mulFunvtion"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"dem",
+				"demo1"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"pi",
+				"pic_bulbon"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "json parsing.html",
+			"settings":
+			{
+				"buffer_size": 1261,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/media"
+	],
+	"file_history":
+	[
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/javascript objects.html",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/function.html",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/basic num and string.html",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/console log.html",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/README.md",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/doc write.html",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/external.js",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/alert.html",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/external js.html",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/script-tag.html",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/show-hidden.html",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/hello.js",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/hiding.html",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/changing-style.html",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/change-image.html",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/get-element-by-id.html",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/my-javascript/hello world.html",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/node-js-codes/hello.js",
+		"/Users/Tomvictor/Documents/Git Repository/GitHub/node-js-codes/console.log(\"hello world\")",
+		"/Users/Tomvictor/Desktop/ecommerce-master/ecommerce/ecommerce/settings.py",
+		"/Users/Tomvictor/Desktop/ecommerce-2-master/src/ecommerce2/urls.py",
+		"/Users/Tomvictor/Desktop/ecommerce-2-master/src/ecommerce2/old_settings.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "json parsing.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1174,
+								1174
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "javascript.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
