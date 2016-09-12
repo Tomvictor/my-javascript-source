@@ -9,6 +9,9 @@
 	I am a text block
 	<button onclick="myFunction()">click me</button>
 </p>
+<p id="json">
+	Hai I am a text block
+</p>
 <script type="text/javascript">
 function myFunction() {
 	// body...
@@ -17,12 +20,28 @@ function myFunction() {
 	xmlhttp.onreadystatechange = function () {
 		// body...
 		if (this.readyState == 4 && this.status == 200) {
+			//var myArr = this.responseText;
 			var myArr = this.responseText;
-			document.getElementById("demo").innerHTML = myArr;
+			document.getElementById("demo").innerHTML ="<h2>raw data</h2>" + myArr;
+			f = JSON.parse(this.responseText);
+			parserFunction(f)
 		}
 	};
 	xmlhttp.open("GET",url,true);
 	xmlhttp.send();
+	function parserFunction(array) {
+		var out = "";
+		document.getElementById("json").innerHTML ="<h2>json ID</h2>" + array["next"];
+		/*
+		var i;
+		
+		for (var i = 0; i<=array.length; i++) {
+			Things[i]
+			out += array[3].url;
+		}
+		*/
+		
+	}
 
 }
 
